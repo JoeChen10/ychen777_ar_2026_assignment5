@@ -31,6 +31,6 @@ The Blender file retains the armature, IK constraints, Shape Keys, and three act
 ### Switching actions with an AR controller
 
 1. Select the AR entry button and enter the play mode.
-3. Press Q or left click to switch actions.
+3. Press Q or left click (left/right trigger) to switch actions. 
 4. The model starts with **Blink**. Successive trigger presses switch to **Surprise**, then **Walk**.
 
