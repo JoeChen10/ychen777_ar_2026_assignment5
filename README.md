@@ -30,9 +30,7 @@ The Blender file retains the armature, IK constraints, Shape Keys, and three act
 
 ### Switching actions with an AR controller
 
-1. Open the demo in a WebXR-compatible browser on an AR headset using HTTPS. For the Playground version, run the code and load `Q2/d/rob.glb` first.
-2. Select the AR entry button when available and allow the required session permissions. Controller switching operates inside the immersive AR session.
-3. Press and release a controller's primary select trigger (usually the index-finger trigger). Each WebXR `select` event advances the action once.
-4. The model starts with **Blink**. Successive trigger presses switch to **Surprise**, then **Walk**, then **Blink** again. The selected action repeats until the next press.
+1. Select the AR entry button and enter the play mode.
+3. Press Q or left click to switch actions.
+4. The model starts with **Blink**. Successive trigger presses switch to **Surprise**, then **Walk**.
 
-The implementation listens for the AR session's `select` event, so either controller can switch actions when it emits that event; it does not require a particular A/B/X/Y button. The **Next action / Space** button provides the same cycle in desktop preview. If no AR entry button appears, confirm that the device/browser supports immersive AR and the page is served over HTTPS. Desktop preview alone does not verify headset/controller operation.
